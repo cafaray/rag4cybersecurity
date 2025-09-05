@@ -20,7 +20,7 @@ I'm (forced) using `uv`, a nice tool to manage python virtual environments. Here
 
 In our case, we are using it in the simple way:
 
-`uv venv python 3.12``
+`uv venv python 3.12`
 
 Then, to activate the environment:
 
