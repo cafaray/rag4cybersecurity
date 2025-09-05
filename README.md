@@ -13,3 +13,24 @@ To run:
 - integrate_llm_openai.py: Integrate a remote LLM to the app.py script. It use the openai formula.
 
 - usecase_grc_rag.py: A complete use case for security and compliance.  
+
+## Python environment
+
+I'm (forced) using `uv`, a nice tool to manage python virtual environments. Here you can find more [information about uv](https://github.com/astral-sh/uv). 
+
+In our case, we are using it in the simple way:
+
+`uv venv python 3.12``
+
+Then, to activate the environment:
+
+`source .venv/bin/activate`
+
+To install the required packages:
+`uv pip install -r requirements.txt`
+
+To run the scripts:
+`uv run app.py`
+
+To deactivate the environment: 
+`deactivate`
